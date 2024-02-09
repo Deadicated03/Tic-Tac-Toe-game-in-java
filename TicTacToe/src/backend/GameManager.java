@@ -26,9 +26,10 @@ public class GameManager implements IGameManager {
 			board.setText("X Turn");
 			board.setTurn(true);
 		}
-		board.setText("O Turn");
-		board.setTurn(false);
-		
+		else {
+			board.setText("O Turn");
+			board.setTurn(false);
+		}
 	}
 	
 	public void turn(boardManager board) {

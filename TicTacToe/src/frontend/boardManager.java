@@ -221,7 +221,7 @@ public class boardManager implements ActionListener {
 		}
 		if(manager.getFinished() == 1 || counter == 9) {
 			
-			if(counter == 9) {
+			if(counter == 9 && manager.getFinished() != 1) {
 				setText("No winner");
 			}
 			
